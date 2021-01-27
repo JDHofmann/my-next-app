@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -6,7 +7,9 @@ export default function Home() {
     style={{ 
       width: '50vw',
     }}
-    >Home
+    >
+      <Link href="/about"><a>About</a></Link>
+      <h1>Home</h1>
       <Image 
         src="/images/building.jpg" 
         alt="my apartment"
