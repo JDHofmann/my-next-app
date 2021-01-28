@@ -1,13 +1,12 @@
 import Image from 'next/image'
 import Navbar from '../components/navbar.js'
 import Head from 'next/head'
+import Layout from '../components/layout.js'
 
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-
+    <Layout>
       <div 
       style={{ 
         width: '50vw',
@@ -25,6 +24,6 @@ export default function Home() {
       <Head>
         <title>My Next App Home</title>
       </Head>
-    </>
+    </Layout>
   )
 }
