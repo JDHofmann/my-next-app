@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Navbar from '../components/navbar.js'
+import Head from 'next/head'
+
 
 export default function Home() {
   return (
@@ -20,6 +22,9 @@ export default function Home() {
           layout="responsive"
         /> */}
       </div>
+      <Head>
+        <title>My Next App Home</title>
+      </Head>
     </>
   )
 }
