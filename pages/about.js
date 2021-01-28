@@ -1,13 +1,14 @@
-import Link from 'next/link'
+import Navbar from '../components/navbar.js'
+
 
 export default function About(){
     return (
-        <div>
-            <Link href="/">
-            <a>Home</a>
-            </Link>
-            <h1>About</h1>
-        </div>
+        <>
+            <Navbar />
+            <div>
+                <h1>About</h1>
+            </div>
+        </>
         
     )
 }
