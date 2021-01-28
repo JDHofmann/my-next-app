@@ -1,8 +1,9 @@
 import Navbar from '../components/navbar.js'
+import styles from './layout.module.css'
 
 export default function Layout({ children }) {
     return (
-        <div>
+        <div className={styles.container}>
             <Navbar />
             {children}
         </div>
