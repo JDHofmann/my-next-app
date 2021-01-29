@@ -1,17 +1,22 @@
 import Navbar from '../components/navbar.js'
-import styles from './layout.module.css'
+// import styles from './layout.module.css'
 
 export default function Layout({ children }) {
     return (
         
-        <div className={styles.container}>
+        <div className="container">
             <Navbar />
             {children}
+            <style jsx>{`
+                .container {
+                    width: 90vw;
+                    padding: 0 1vmin;
+                    margin: 5vh auto;
+                }
+            `}</style>
             <style jsx global>
                 {`
-                    h1 {
-                        color: #0000a0;
-                    }
+                    
                 `}
             </style>
         </div>

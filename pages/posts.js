@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Layout from '../components/layout'
 
 export default function Posts(){
     return(
-        <Layout>
+        <>
             <Head>
                 <title>Posts</title>
             </Head>
@@ -20,6 +19,6 @@ export default function Posts(){
                 }
             }
             `}</style>
-        </Layout>
+        </>
     )
 }

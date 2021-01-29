@@ -18,3 +18,7 @@ a:hover {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  color: #0000a0;
+}

@@ -7,6 +7,11 @@ export default function Navbar(){
             <Link href="/"><a className={style.navlink}>Home</a></Link>
             <Link href="/posts"><a className={style.navlink}>Posts</a></Link>
             <Link href="/about"><a className={style.navlink}>About</a></Link>
+            <style jsx>{`
+                header {
+                    background: #d0d0d0;
+                }
+            `}</style>
         </header>
     )
 }
