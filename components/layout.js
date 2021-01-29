@@ -7,12 +7,13 @@ export default function Layout({ children }) {
         <div className={styles.container}>
             <Navbar />
             {children}
-            {/* <style jsx>{`
-                div {
-                    background: #ffa000;
-                } 
-            }
-            `}</style> */}
+            <style jsx global>
+                {`
+                    h1 {
+                        color: #0000a0;
+                    }
+                `}
+            </style>
         </div>
     )
 }
