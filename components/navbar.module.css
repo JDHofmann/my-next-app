@@ -1,13 +1,9 @@
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background: #d0d0d0;
+    display: flex;
+    justify-content: space-around;
+    background: #d0d0d0;
 }
 
 .navlink {
-  color: #006000;
+    color: #006000;
 }
-/*# sourceMappingURL=navbar.module.css.map */
