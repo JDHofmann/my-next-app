@@ -1,0 +1,41 @@
+@import url(/Users/jdbrewer-hofmann/Development/code/tara/my-next-app/styles/_layout.css);
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #d0d0d0;
+}
+
+.navlink {
+  color: #006000;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  color: #0000a0;
+}
+/*# sourceMappingURL=main.css.map */
