@@ -1,4 +1,5 @@
 import Navbar from '../components/navbar.js'
+import Footer from './footer.js'
 // import styles from './layout.module.css'
 
 export default function Layout({ children }) {
@@ -7,6 +8,7 @@ export default function Layout({ children }) {
         <div className="container">
             <Navbar />
             {children}
+            <Footer />
             <style jsx>{`
                 .container {
                     width: 90vw;
